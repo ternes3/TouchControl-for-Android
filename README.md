@@ -1,11 +1,13 @@
 TouchControl for Android
 -------------------------
-This is a simple software to control your android device over adb. The linux version is written by Björn Ternes. Orginally windows version written by kjanku1 (https://github.com/kjanku1/WindowsApplication1)
+This is a simple software to control your android device over adb. The qt version is written by ternes3. 
+
+Orginally version written by kjanku1 (https://github.com/kjanku1/WindowsApplication1)
 This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-screen.ribomation.com/
 
 # License
 
-> Copyright (c) 2014 Björn Ternes (ternes3) / reBT-SOFT
+> Copyright (c) 2014 ternes3 / reBTSOFT
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
