@@ -35,3 +35,10 @@ This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-scr
 
 * libboost-all-dev
 * libqt4-dev	
+
+# Build
+
+	$ make
+
+# Run
+	$ ./touchcontrol
