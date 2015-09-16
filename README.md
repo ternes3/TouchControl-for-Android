@@ -30,3 +30,15 @@ This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-scr
 # Screenshots
 
 ![screenshot](https://d17a0bhirp6vrt.cloudfront.net/img/touchcontrol.png)
+
+# Dependencies
+
+* libboost-all-dev
+* libqt4-dev	
+
+# Build
+
+	$ make
+
+# Run
+	$ ./touchcontrol
