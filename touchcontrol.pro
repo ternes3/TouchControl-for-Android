@@ -3,10 +3,11 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET = 
+TARGET = touchcontrol
 DEPENDPATH += .
 INCLUDEPATH += .
 RESOURCES = touchcontrol.qrc
+QT += widgets
 
 # Input
 HEADERS += touchcontrol.h \

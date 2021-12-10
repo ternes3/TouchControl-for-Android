@@ -10,12 +10,12 @@
 #define UI_SPECIALCHARACTER_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QHeaderView>
-#include <QtGui/QPushButton>
-#include <QtGui/QWidget>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -144,34 +144,34 @@ public:
 
     void retranslateUi(QWidget *SpecialCharacter)
     {
-        SpecialCharacter->setWindowTitle(QApplication::translate("SpecialCharacter", "Special Character", 0, QApplication::UnicodeUTF8));
-        button_at->setText(QApplication::translate("SpecialCharacter", "@", 0, QApplication::UnicodeUTF8));
-        button_1->setText(QApplication::translate("SpecialCharacter", "#", 0, QApplication::UnicodeUTF8));
-        button_dollar->setText(QApplication::translate("SpecialCharacter", "$", 0, QApplication::UnicodeUTF8));
-        button_euro->setText(QApplication::translate("SpecialCharacter", "\342\202\254", 0, QApplication::UnicodeUTF8));
-        button_procent->setText(QApplication::translate("SpecialCharacter", "%", 0, QApplication::UnicodeUTF8));
-        button_bslash->setText(QApplication::translate("SpecialCharacter", "\\", 0, QApplication::UnicodeUTF8));
-        button_minus->setText(QApplication::translate("SpecialCharacter", "-", 0, QApplication::UnicodeUTF8));
-        button_equal->setText(QApplication::translate("SpecialCharacter", "=", 0, QApplication::UnicodeUTF8));
-        button_2->setText(QApplication::translate("SpecialCharacter", "(", 0, QApplication::UnicodeUTF8));
-        button_3->setText(QApplication::translate("SpecialCharacter", ")", 0, QApplication::UnicodeUTF8));
-        button_star->setText(QApplication::translate("SpecialCharacter", "*", 0, QApplication::UnicodeUTF8));
-        button_4->setText(QApplication::translate("SpecialCharacter", "\"", 0, QApplication::UnicodeUTF8));
-        button_5->setText(QApplication::translate("SpecialCharacter", "'", 0, QApplication::UnicodeUTF8));
-        button_dpoint->setText(QApplication::translate("SpecialCharacter", ":", 0, QApplication::UnicodeUTF8));
-        button_6->setText(QApplication::translate("SpecialCharacter", ";", 0, QApplication::UnicodeUTF8));
-        button_7->setText(QApplication::translate("SpecialCharacter", "!", 0, QApplication::UnicodeUTF8));
-        button_8->setText(QApplication::translate("SpecialCharacter", "?", 0, QApplication::UnicodeUTF8));
-        button_ue->setText(QApplication::translate("SpecialCharacter", "\303\274", 0, QApplication::UnicodeUTF8));
-        button_oe->setText(QApplication::translate("SpecialCharacter", "\303\266", 0, QApplication::UnicodeUTF8));
-        button_ae->setText(QApplication::translate("SpecialCharacter", "\303\244", 0, QApplication::UnicodeUTF8));
-        button_UE->setText(QApplication::translate("SpecialCharacter", "\303\234", 0, QApplication::UnicodeUTF8));
-        button_AE->setText(QApplication::translate("SpecialCharacter", "\303\226", 0, QApplication::UnicodeUTF8));
-        button_OE->setText(QApplication::translate("SpecialCharacter", "\303\204", 0, QApplication::UnicodeUTF8));
-        button_10->setText(QApplication::translate("SpecialCharacter", "_", 0, QApplication::UnicodeUTF8));
-        button_plus->setText(QApplication::translate("SpecialCharacter", "+", 0, QApplication::UnicodeUTF8));
-        button_9->setText(QApplication::translate("SpecialCharacter", "~", 0, QApplication::UnicodeUTF8));
-        ok->setText(QApplication::translate("SpecialCharacter", "OK", 0, QApplication::UnicodeUTF8));
+        SpecialCharacter->setWindowTitle(QApplication::translate("SpecialCharacter", "Special Character", 0));
+        button_at->setText(QApplication::translate("SpecialCharacter", "@", 0));
+        button_1->setText(QApplication::translate("SpecialCharacter", "#", 0));
+        button_dollar->setText(QApplication::translate("SpecialCharacter", "$", 0));
+        button_euro->setText(QApplication::translate("SpecialCharacter", "\342\202\254", 0));
+        button_procent->setText(QApplication::translate("SpecialCharacter", "%", 0));
+        button_bslash->setText(QApplication::translate("SpecialCharacter", "\\", 0));
+        button_minus->setText(QApplication::translate("SpecialCharacter", "-", 0));
+        button_equal->setText(QApplication::translate("SpecialCharacter", "=", 0));
+        button_2->setText(QApplication::translate("SpecialCharacter", "(", 0));
+        button_3->setText(QApplication::translate("SpecialCharacter", ")", 0));
+        button_star->setText(QApplication::translate("SpecialCharacter", "*", 0));
+        button_4->setText(QApplication::translate("SpecialCharacter", "\"", 0));
+        button_5->setText(QApplication::translate("SpecialCharacter", "'", 0));
+        button_dpoint->setText(QApplication::translate("SpecialCharacter", ":", 0));
+        button_6->setText(QApplication::translate("SpecialCharacter", ";", 0));
+        button_7->setText(QApplication::translate("SpecialCharacter", "!", 0));
+        button_8->setText(QApplication::translate("SpecialCharacter", "?", 0));
+        button_ue->setText(QApplication::translate("SpecialCharacter", "\303\274", 0));
+        button_oe->setText(QApplication::translate("SpecialCharacter", "\303\266", 0));
+        button_ae->setText(QApplication::translate("SpecialCharacter", "\303\244", 0));
+        button_UE->setText(QApplication::translate("SpecialCharacter", "\303\234", 0));
+        button_AE->setText(QApplication::translate("SpecialCharacter", "\303\226", 0));
+        button_OE->setText(QApplication::translate("SpecialCharacter", "\303\204", 0));
+        button_10->setText(QApplication::translate("SpecialCharacter", "_", 0));
+        button_plus->setText(QApplication::translate("SpecialCharacter", "+", 0));
+        button_9->setText(QApplication::translate("SpecialCharacter", "~", 0));
+        ok->setText(QApplication::translate("SpecialCharacter", "OK", 0));
     } // retranslateUi
 
 };

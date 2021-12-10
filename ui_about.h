@@ -10,13 +10,13 @@
 #define UI_ABOUT_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
-#include <QtGui/QPushButton>
-#include <QtGui/QWidget>
+#include <QtWidgets/QAction>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -77,16 +77,16 @@ public:
 
     void retranslateUi(QWidget *About)
     {
-        About->setWindowTitle(QApplication::translate("About", "Form", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("About", "TouchControl for Android v1.0", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("About", "Ported to Linux by Bj\303\266rn Ternes", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("About", "Orginally written by k.janku1", 0, QApplication::UnicodeUTF8));
-        github->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
-        rebtsoft->setText(QApplication::translate("About", "reBT-SOFT", 0, QApplication::UnicodeUTF8));
-        github_orginal->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
-        label_4->setText(QApplication::translate("About", "This software use droidAtScreen written by Jens Riboe", 0, QApplication::UnicodeUTF8));
-        droid_website->setText(QApplication::translate("About", "Website", 0, QApplication::UnicodeUTF8));
-        github_droid->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
+        About->setWindowTitle(QApplication::translate("About", "Form", 0));
+        label->setText(QApplication::translate("About", "TouchControl for Android v1.0", 0));
+        label_2->setText(QApplication::translate("About", "Ported to Linux by Bj\303\266rn Ternes", 0));
+        label_3->setText(QApplication::translate("About", "Orginally written by k.janku1", 0));
+        github->setText(QApplication::translate("About", "GitHub", 0));
+        rebtsoft->setText(QApplication::translate("About", "reBT-SOFT", 0));
+        github_orginal->setText(QApplication::translate("About", "GitHub", 0));
+        label_4->setText(QApplication::translate("About", "This software use droidAtScreen written by Jens Riboe", 0));
+        droid_website->setText(QApplication::translate("About", "Website", 0));
+        github_droid->setText(QApplication::translate("About", "GitHub", 0));
         img->setText(QString());
     } // retranslateUi
 

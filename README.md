@@ -34,7 +34,7 @@ This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-scr
 # Dependencies
 
 * libboost-all-dev
-* libqt4-dev	
+* qt5-default
 
 # Build
 
