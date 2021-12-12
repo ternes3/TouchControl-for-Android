@@ -18,7 +18,7 @@ private slots:
     void github();
     void github_orginal();
     void gitgub_droid();
-    void rebtsoft();
+    void bternescom();
     void droid_website();
 
 private:

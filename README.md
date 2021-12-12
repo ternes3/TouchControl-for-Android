@@ -1,13 +1,13 @@
 TouchControl for Android
 -------------------------
-This is a simple software to control your android device over adb. The qt version is written by ternes3. 
+This is a simple software to control your android device over adb. The qt version is initiated by ternes3. Thanks to all contributors.
 
 Orginally version written by kjanku1 (https://github.com/kjanku1/WindowsApplication1)
 This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-screen.ribomation.com/
 
 # License
 
-> Copyright (c) 2014 ternes3 / reBTSOFT
+> Copyright (c) 2014 ternes3
 > 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
@@ -27,14 +27,10 @@ This Software use droidAtScreen (which wasn't made by me) -> http://droid-at-scr
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 > THE SOFTWARE
 
-# Screenshots
-
-![screenshot](https://d17a0bhirp6vrt.cloudfront.net/img/touchcontrol.png)
-
 # Dependencies
 
 * libboost-all-dev
-* libqt4-dev	
+* qt5-default
 
 # Build
 

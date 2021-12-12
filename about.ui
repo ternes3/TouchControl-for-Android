@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>579</width>
+    <width>650</width>
     <height>219</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>About</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -23,7 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>TouchControl for Android v1.0</string>
+    <string>TouchControl for Android v1.0.1 QT5</string>
    </property>
   </widget>
   <widget class="QLabel" name="label_2">
@@ -65,17 +65,17 @@
     <string>GitHub</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="rebtsoft">
+  <widget class="QPushButton" name="bternescom">
    <property name="geometry">
     <rect>
      <x>350</x>
      <y>50</y>
-     <width>81</width>
+     <width>90</width>
      <height>22</height>
     </rect>
    </property>
    <property name="text">
-    <string>reBT-SOFT</string>
+    <string>bternes.com</string>
    </property>
   </widget>
   <widget class="QPushButton" name="github_orginal">
@@ -96,7 +96,7 @@
     <rect>
      <x>230</x>
      <y>130</y>
-     <width>341</width>
+     <width>400</width>
      <height>16</height>
     </rect>
    </property>

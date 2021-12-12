@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'about.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -10,13 +10,10 @@
 #define UI_ABOUT_H
 
 #include <QtCore/QVariant>
-#include <QtGui/QAction>
-#include <QtGui/QApplication>
-#include <QtGui/QButtonGroup>
-#include <QtGui/QHeaderView>
-#include <QtGui/QLabel>
-#include <QtGui/QPushButton>
-#include <QtGui/QWidget>
+#include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QPushButton>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
@@ -27,7 +24,7 @@ public:
     QLabel *label_2;
     QLabel *label_3;
     QPushButton *github;
-    QPushButton *rebtsoft;
+    QPushButton *bternescom;
     QPushButton *github_orginal;
     QLabel *label_4;
     QPushButton *droid_website;
@@ -38,7 +35,7 @@ public:
     {
         if (About->objectName().isEmpty())
             About->setObjectName(QString::fromUtf8("About"));
-        About->resize(579, 219);
+        About->resize(650, 219);
         label = new QLabel(About);
         label->setObjectName(QString::fromUtf8("label"));
         label->setGeometry(QRect(230, 10, 261, 20));
@@ -51,15 +48,15 @@ public:
         github = new QPushButton(About);
         github->setObjectName(QString::fromUtf8("github"));
         github->setGeometry(QRect(230, 50, 81, 22));
-        rebtsoft = new QPushButton(About);
-        rebtsoft->setObjectName(QString::fromUtf8("rebtsoft"));
-        rebtsoft->setGeometry(QRect(350, 50, 81, 22));
+        bternescom = new QPushButton(About);
+        bternescom->setObjectName(QString::fromUtf8("bternescom"));
+        bternescom->setGeometry(QRect(350, 50, 90, 22));
         github_orginal = new QPushButton(About);
         github_orginal->setObjectName(QString::fromUtf8("github_orginal"));
         github_orginal->setGeometry(QRect(230, 100, 81, 22));
         label_4 = new QLabel(About);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(230, 130, 341, 16));
+        label_4->setGeometry(QRect(230, 130, 400, 16));
         droid_website = new QPushButton(About);
         droid_website->setObjectName(QString::fromUtf8("droid_website"));
         droid_website->setGeometry(QRect(230, 150, 81, 22));
@@ -77,16 +74,16 @@ public:
 
     void retranslateUi(QWidget *About)
     {
-        About->setWindowTitle(QApplication::translate("About", "Form", 0, QApplication::UnicodeUTF8));
-        label->setText(QApplication::translate("About", "TouchControl for Android v1.0", 0, QApplication::UnicodeUTF8));
-        label_2->setText(QApplication::translate("About", "Ported to Linux by Bj\303\266rn Ternes", 0, QApplication::UnicodeUTF8));
-        label_3->setText(QApplication::translate("About", "Orginally written by k.janku1", 0, QApplication::UnicodeUTF8));
-        github->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
-        rebtsoft->setText(QApplication::translate("About", "reBT-SOFT", 0, QApplication::UnicodeUTF8));
-        github_orginal->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
-        label_4->setText(QApplication::translate("About", "This software use droidAtScreen written by Jens Riboe", 0, QApplication::UnicodeUTF8));
-        droid_website->setText(QApplication::translate("About", "Website", 0, QApplication::UnicodeUTF8));
-        github_droid->setText(QApplication::translate("About", "GitHub", 0, QApplication::UnicodeUTF8));
+        About->setWindowTitle(QCoreApplication::translate("About", "About", nullptr));
+        label->setText(QCoreApplication::translate("About", "TouchControl for Android v1.0.1 QT5", nullptr));
+        label_2->setText(QCoreApplication::translate("About", "Ported to Linux by Bj\303\266rn Ternes", nullptr));
+        label_3->setText(QCoreApplication::translate("About", "Orginally written by k.janku1", nullptr));
+        github->setText(QCoreApplication::translate("About", "GitHub", nullptr));
+        bternescom->setText(QCoreApplication::translate("About", "bternes.com", nullptr));
+        github_orginal->setText(QCoreApplication::translate("About", "GitHub", nullptr));
+        label_4->setText(QCoreApplication::translate("About", "This software use droidAtScreen written by Jens Riboe", nullptr));
+        droid_website->setText(QCoreApplication::translate("About", "Website", nullptr));
+        github_droid->setText(QCoreApplication::translate("About", "GitHub", nullptr));
         img->setText(QString());
     } // retranslateUi
 
