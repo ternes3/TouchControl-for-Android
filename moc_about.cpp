@@ -1,18 +1,19 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'about.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.12.8)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.15.2)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
+#include <memory>
 #include "about.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'about.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.12.8. It"
+#error "This file was generated using the moc from 5.15.2. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -22,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_About_t {
     QByteArrayData data[7];
-    char stringdata0[65];
+    char stringdata0[67];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -36,12 +37,12 @@ QT_MOC_LITERAL(1, 6, 6), // "github"
 QT_MOC_LITERAL(2, 13, 0), // ""
 QT_MOC_LITERAL(3, 14, 14), // "github_orginal"
 QT_MOC_LITERAL(4, 29, 12), // "gitgub_droid"
-QT_MOC_LITERAL(5, 42, 8), // "rebtsoft"
-QT_MOC_LITERAL(6, 51, 13) // "droid_website"
+QT_MOC_LITERAL(5, 42, 10), // "bternescom"
+QT_MOC_LITERAL(6, 53, 13) // "droid_website"
 
     },
     "About\0github\0\0github_orginal\0gitgub_droid\0"
-    "rebtsoft\0droid_website"
+    "bternescom\0droid_website"
 };
 #undef QT_MOC_LITERAL
 
@@ -79,21 +80,21 @@ void About::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
 {
     if (_c == QMetaObject::InvokeMetaMethod) {
         auto *_t = static_cast<About *>(_o);
-        Q_UNUSED(_t)
+        (void)_t;
         switch (_id) {
         case 0: _t->github(); break;
         case 1: _t->github_orginal(); break;
         case 2: _t->gitgub_droid(); break;
-        case 3: _t->rebtsoft(); break;
+        case 3: _t->bternescom(); break;
         case 4: _t->droid_website(); break;
         default: ;
         }
     }
-    Q_UNUSED(_a);
+    (void)_a;
 }
 
 QT_INIT_METAOBJECT const QMetaObject About::staticMetaObject = { {
-    &QWidget::staticMetaObject,
+    QMetaObject::SuperData::link<QWidget::staticMetaObject>(),
     qt_meta_stringdata_About.data,
     qt_meta_data_About,
     qt_static_metacall,

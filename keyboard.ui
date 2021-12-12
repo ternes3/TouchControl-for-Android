@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>896</width>
-    <height>305</height>
+    <height>310</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -154,7 +154,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>&lt;- back</string>
+     <string>Back</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_q">
@@ -297,7 +297,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>caselock</string>
+     <string>Caselock</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_a">
@@ -427,7 +427,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>enter</string>
+     <string>Enter</string>
     </property>
    </widget>
    <widget class="QPushButton" name="button_12">

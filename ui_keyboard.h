@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'keyboard.ui'
 **
-** Created by: Qt User Interface Compiler version 4.8.6
+** Created by: Qt User Interface Compiler version 5.15.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -12,8 +12,6 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QButtonGroup>
-#include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
@@ -100,7 +98,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName(QString::fromUtf8("MainWindow"));
-        MainWindow->resize(896, 305);
+        MainWindow->resize(896, 310);
         actionBeenden = new QAction(MainWindow);
         actionBeenden->setObjectName(QString::fromUtf8("actionBeenden"));
         action_ber = new QAction(MainWindow);
@@ -310,70 +308,70 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "Touchscreen Control for Android", 0));
-        actionBeenden->setText(QApplication::translate("MainWindow", "Beenden", 0));
-        action_ber->setText(QApplication::translate("MainWindow", "\303\234ber", 0));
-        actionExit->setText(QApplication::translate("MainWindow", "Exit", 0));
-        actionAbout->setText(QApplication::translate("MainWindow", "About", 0));
-        button_1->setText(QApplication::translate("MainWindow", "1", 0));
-        button_2->setText(QApplication::translate("MainWindow", "2", 0));
-        button_3->setText(QApplication::translate("MainWindow", "3", 0));
-        button_4->setText(QApplication::translate("MainWindow", "4", 0));
-        button_5->setText(QApplication::translate("MainWindow", "5", 0));
-        button_6->setText(QApplication::translate("MainWindow", "6", 0));
-        button_7->setText(QApplication::translate("MainWindow", "7", 0));
-        button_8->setText(QApplication::translate("MainWindow", "8", 0));
-        button_9->setText(QApplication::translate("MainWindow", "9", 0));
-        button_0->setText(QApplication::translate("MainWindow", "0", 0));
-        button_back->setText(QApplication::translate("MainWindow", "<- back", 0));
-        button_q->setText(QApplication::translate("MainWindow", "q", 0));
-        button_w->setText(QApplication::translate("MainWindow", "w", 0));
-        button_e->setText(QApplication::translate("MainWindow", "e", 0));
-        button_t->setText(QApplication::translate("MainWindow", "t", 0));
-        button_z->setText(QApplication::translate("MainWindow", "z", 0));
-        button_u->setText(QApplication::translate("MainWindow", "u", 0));
-        button_i->setText(QApplication::translate("MainWindow", "i", 0));
-        button_o->setText(QApplication::translate("MainWindow", "o", 0));
-        button_p->setText(QApplication::translate("MainWindow", "p", 0));
-        button_slash->setText(QApplication::translate("MainWindow", "/", 0));
-        button_11->setText(QApplication::translate("MainWindow", "caselock", 0));
-        button_a->setText(QApplication::translate("MainWindow", "a", 0));
-        button_s->setText(QApplication::translate("MainWindow", "s", 0));
-        button_d->setText(QApplication::translate("MainWindow", "d", 0));
-        button_f->setText(QApplication::translate("MainWindow", "f", 0));
-        button_g->setText(QApplication::translate("MainWindow", "g", 0));
-        button_h->setText(QApplication::translate("MainWindow", "h", 0));
-        button_j->setText(QApplication::translate("MainWindow", "j", 0));
-        button_k->setText(QApplication::translate("MainWindow", "k", 0));
-        button_l->setText(QApplication::translate("MainWindow", "l", 0));
-        button_enter->setText(QApplication::translate("MainWindow", "enter", 0));
-        button_12->setText(QApplication::translate("MainWindow", "?123", 0));
-        button_y->setText(QApplication::translate("MainWindow", "y", 0));
-        button_x->setText(QApplication::translate("MainWindow", "x", 0));
-        button_c->setText(QApplication::translate("MainWindow", "c", 0));
-        button_v->setText(QApplication::translate("MainWindow", "v", 0));
-        button_b->setText(QApplication::translate("MainWindow", "b", 0));
-        button_n->setText(QApplication::translate("MainWindow", "n", 0));
-        button_m->setText(QApplication::translate("MainWindow", "m", 0));
-        button_comma->setText(QApplication::translate("MainWindow", ",", 0));
-        button_dot->setText(QApplication::translate("MainWindow", ".", 0));
-        button_up->setText(QApplication::translate("MainWindow", "Up", 0));
-        button_center->setText(QApplication::translate("MainWindow", "Center", 0));
-        button_left->setText(QApplication::translate("MainWindow", "Left", 0));
-        button_right->setText(QApplication::translate("MainWindow", "Right", 0));
-        button_down->setText(QApplication::translate("MainWindow", "Down", 0));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Touchscreen Control for Android", nullptr));
+        actionBeenden->setText(QCoreApplication::translate("MainWindow", "Beenden", nullptr));
+        action_ber->setText(QCoreApplication::translate("MainWindow", "\303\234ber", nullptr));
+        actionExit->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
+        actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
+        button_1->setText(QCoreApplication::translate("MainWindow", "1", nullptr));
+        button_2->setText(QCoreApplication::translate("MainWindow", "2", nullptr));
+        button_3->setText(QCoreApplication::translate("MainWindow", "3", nullptr));
+        button_4->setText(QCoreApplication::translate("MainWindow", "4", nullptr));
+        button_5->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
+        button_6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
+        button_7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));
+        button_8->setText(QCoreApplication::translate("MainWindow", "8", nullptr));
+        button_9->setText(QCoreApplication::translate("MainWindow", "9", nullptr));
+        button_0->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
+        button_back->setText(QCoreApplication::translate("MainWindow", "Back", nullptr));
+        button_q->setText(QCoreApplication::translate("MainWindow", "q", nullptr));
+        button_w->setText(QCoreApplication::translate("MainWindow", "w", nullptr));
+        button_e->setText(QCoreApplication::translate("MainWindow", "e", nullptr));
+        button_t->setText(QCoreApplication::translate("MainWindow", "t", nullptr));
+        button_z->setText(QCoreApplication::translate("MainWindow", "z", nullptr));
+        button_u->setText(QCoreApplication::translate("MainWindow", "u", nullptr));
+        button_i->setText(QCoreApplication::translate("MainWindow", "i", nullptr));
+        button_o->setText(QCoreApplication::translate("MainWindow", "o", nullptr));
+        button_p->setText(QCoreApplication::translate("MainWindow", "p", nullptr));
+        button_slash->setText(QCoreApplication::translate("MainWindow", "/", nullptr));
+        button_11->setText(QCoreApplication::translate("MainWindow", "Caselock", nullptr));
+        button_a->setText(QCoreApplication::translate("MainWindow", "a", nullptr));
+        button_s->setText(QCoreApplication::translate("MainWindow", "s", nullptr));
+        button_d->setText(QCoreApplication::translate("MainWindow", "d", nullptr));
+        button_f->setText(QCoreApplication::translate("MainWindow", "f", nullptr));
+        button_g->setText(QCoreApplication::translate("MainWindow", "g", nullptr));
+        button_h->setText(QCoreApplication::translate("MainWindow", "h", nullptr));
+        button_j->setText(QCoreApplication::translate("MainWindow", "j", nullptr));
+        button_k->setText(QCoreApplication::translate("MainWindow", "k", nullptr));
+        button_l->setText(QCoreApplication::translate("MainWindow", "l", nullptr));
+        button_enter->setText(QCoreApplication::translate("MainWindow", "Enter", nullptr));
+        button_12->setText(QCoreApplication::translate("MainWindow", "?123", nullptr));
+        button_y->setText(QCoreApplication::translate("MainWindow", "y", nullptr));
+        button_x->setText(QCoreApplication::translate("MainWindow", "x", nullptr));
+        button_c->setText(QCoreApplication::translate("MainWindow", "c", nullptr));
+        button_v->setText(QCoreApplication::translate("MainWindow", "v", nullptr));
+        button_b->setText(QCoreApplication::translate("MainWindow", "b", nullptr));
+        button_n->setText(QCoreApplication::translate("MainWindow", "n", nullptr));
+        button_m->setText(QCoreApplication::translate("MainWindow", "m", nullptr));
+        button_comma->setText(QCoreApplication::translate("MainWindow", ",", nullptr));
+        button_dot->setText(QCoreApplication::translate("MainWindow", ".", nullptr));
+        button_up->setText(QCoreApplication::translate("MainWindow", "Up", nullptr));
+        button_center->setText(QCoreApplication::translate("MainWindow", "Center", nullptr));
+        button_left->setText(QCoreApplication::translate("MainWindow", "Left", nullptr));
+        button_right->setText(QCoreApplication::translate("MainWindow", "Right", nullptr));
+        button_down->setText(QCoreApplication::translate("MainWindow", "Down", nullptr));
         button_space->setText(QString());
-        button_power->setText(QApplication::translate("MainWindow", "Power", 0));
+        button_power->setText(QCoreApplication::translate("MainWindow", "Power", nullptr));
         button_a_o->setText(QString());
         button_a_h->setText(QString());
         button_a_b->setText(QString());
-        swipe->setText(QApplication::translate("MainWindow", "Swipte to unlock", 0));
-        label->setText(QApplication::translate("MainWindow", "Click the keys", 0));
-        button_r->setText(QApplication::translate("MainWindow", "r", 0));
-        button_text_enter->setText(QApplication::translate("MainWindow", "Enter", 0));
-        label_2->setText(QApplication::translate("MainWindow", "Use textbox below to insert text ", 0));
-        menuDatei->setTitle(QApplication::translate("MainWindow", "File", 0));
-        menuAbout->setTitle(QApplication::translate("MainWindow", "About", 0));
+        swipe->setText(QCoreApplication::translate("MainWindow", "Swipte to unlock", nullptr));
+        label->setText(QCoreApplication::translate("MainWindow", "Click the keys", nullptr));
+        button_r->setText(QCoreApplication::translate("MainWindow", "r", nullptr));
+        button_text_enter->setText(QCoreApplication::translate("MainWindow", "Enter", nullptr));
+        label_2->setText(QCoreApplication::translate("MainWindow", "Use textbox below to insert text ", nullptr));
+        menuDatei->setTitle(QCoreApplication::translate("MainWindow", "File", nullptr));
+        menuAbout->setTitle(QCoreApplication::translate("MainWindow", "About", nullptr));
     } // retranslateUi
 
 };

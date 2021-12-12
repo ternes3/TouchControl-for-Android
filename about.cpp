@@ -13,7 +13,7 @@ About::About(QWidget *parent) : QWidget(parent), ui(new Ui::About) {
     //buttons
     connect(ui->github, SIGNAL(clicked()), this, SLOT(github()));
     connect(ui->github_orginal, SIGNAL(clicked()), this, SLOT(github_orginal()));
-    connect(ui->rebtsoft, SIGNAL(clicked()), this, SLOT(rebtsoft()));
+    connect(ui->bternescom, SIGNAL(clicked()), this, SLOT(bternescom()));
     connect(ui->droid_website, SIGNAL(clicked()), this, SLOT(droid_website()));
     connect(ui->github_droid, SIGNAL(clicked()), this, SLOT(gitgub_droid()));
 }
@@ -31,8 +31,8 @@ void About::github_orginal() {
     system("firefox https://github.com/kjanku1/WindowsApplication1");
 }
 
-void About::rebtsoft() {
-    system("firefox https://git.rebtsoft.de/open-source/touchcontrol-for-android");
+void About::bternescom() {
+    system("firefox https://www.bternes.com");
 }
 
 void About::droid_website() {
